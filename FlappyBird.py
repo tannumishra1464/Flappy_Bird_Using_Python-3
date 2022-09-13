@@ -125,7 +125,7 @@ while True:
            Bird_Movement=0
            Bird_Movement-=4
            Flap_Sound.play()
-       if event.type == KEYDOWN and (event.key == pygame.K_SPACE or event.key == K_UP) or event.type == MOUSEBUTTONDOWN and Game_Active==False:
+       if event.type == KEYDOWN and (event.key == pygame.K_5 or event.key == K_UP) or event.type == MOUSEBUTTONDOWN and Game_Active==False:
            Game_Active=True
            PIPE_LIST.clear()
            BIRD_RECT.center=(40,200)
